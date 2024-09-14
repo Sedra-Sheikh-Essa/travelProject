@@ -1,0 +1,7 @@
+.Section_1Package{
+    padding: 100px 70px 20px 70px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}

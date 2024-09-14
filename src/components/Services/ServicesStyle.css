@@ -1,0 +1,18 @@
+.Services{
+    text-align: center;
+}
+
+.Services .title{
+    color:  #1E1D4C;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Services .discription{
+    color: #7D7D7D;
+    text-align: center;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    width: 257.751px;
+}

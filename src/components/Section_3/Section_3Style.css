@@ -1,0 +1,19 @@
+.Section_3 .conCardSec3{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+/*     text-align: center;
+ */    flex-wrap: wrap;
+    gap: 28px;
+   
+/*     margin: 0 70px 0 70px;
+ */
+}
+.Section_3{
+padding-top: 90px;
+/* display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between; */
+}

@@ -1,0 +1,54 @@
+/* .hero{
+    position: relative;
+} */
+.hero img{
+    width: 100%;
+    object-fit: cover;
+/*height:max-content; */
+height: 100vh;
+/* position: relative;
+ */}
+
+.hero .titleHome{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 2.87rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #2F2F2F;
+    width: 846px;
+/*     max-width: 846px;
+ *//*     object-fit: contain;
+ */   
+} 
+.hero .titleAbout{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 7.5rem;
+    text-align: center;
+    font-family: "Yesteryear", "cursive";
+    font-weight: 400;
+}
+
+@media screen and (max-width:900px) {
+    html{
+        font-size: 12px;
+    }
+    .hero .titleHome{
+        width: 80%;
+    }
+}
+@media screen and (max-width:400px){
+
+    .hero .titleHome{   
+    width: 290px;
+    }
+    .hero .titleAbout{
+        font-size: 48px;
+    }
+}

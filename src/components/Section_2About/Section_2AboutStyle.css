@@ -1,0 +1,12 @@
+.Section_2About{
+    position: relative;
+}
+.Section_2About .img2Sec2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.Section_2About .hero img{
+    height: 432px;
+}

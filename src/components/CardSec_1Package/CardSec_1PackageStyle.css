@@ -1,0 +1,85 @@
+.CardSec_1Package .card{
+    max-width: 386px;
+    height: 438px;
+    background-color: #F5F3F3;
+    border-radius: 4px;
+    color: #181E4B;
+    padding: 20px;
+}
+
+.CardSec_1Package .card img{
+    max-width: 346px;
+    height: 223.96px;
+    border-radius: 4px 4px 0px 0px;
+    text-align: center;
+}
+.CardSec_1Package .card .condate{
+    max-width: 346px;
+    height: 39px;
+    border-radius: 0px 0px 4px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DF6951;
+    padding: 0px 20px;
+    color: #F5F3F3;
+    margin-top: -7px;
+    font-size: 0.81rem;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+.CardSec_1Package .card .title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181E4B;
+    padding: 15px 0px;
+}
+.CardSec_1Package .card .paragragh{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181E4B;
+    max-width: 318.5px;
+    
+}
+
+.CardSec_1Package .card .constar{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    color: #262626;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    
+}
+.CardSec_1Package .card .star{
+    width: 13.21px;
+    height: 13px;
+    margin-left: 50px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width:400px) {
+    .CardSec_1Package .card{
+    max-width: 290px;
+    height: auto;
+}
+.CardSec_1Package .card img{
+        width: 250px;
+        height: auto;
+    }
+.CardSec_1Package .card .condate{
+    width: 250px;
+
+}
+}
